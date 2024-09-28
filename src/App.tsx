@@ -1,9 +1,9 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { Dashboard } from "./routes";
 import { Root } from "./routes/root";
 import { Products } from "./routes/product";
 import { Customers } from "./routes/customers";
 import { Orders } from "./routes/orders";
+import { Dashboard } from "./routes/dashboard";
 
 function App() {
   const router = createBrowserRouter([
